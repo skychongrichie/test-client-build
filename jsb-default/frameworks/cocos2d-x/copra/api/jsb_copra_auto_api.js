@@ -1,5 +1,5 @@
 /**
- * @module copra
+ * @module cp
  */
 var cp = cp || {};
 

@@ -201,7 +201,7 @@ bool jsb_register_all_modules()
     se->addRegisterCallback(run_boot_script);
     
     //copra{
-    se->addRegisterCallback(register_all_copra);
+    se->addRegisterCallback(register_all_cp);
     //copra}
 
     se->addAfterCleanupHook([](){
